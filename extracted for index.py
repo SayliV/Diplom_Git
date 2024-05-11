@@ -1,70 +1,68 @@
-import re
-
-def find_data_block(file_path):
-    with open(file_path, 'r') as file:
-        lines = file.readlines()
+import openpyxl
+import os
+#функция нахождения ссылок и их индексов
+def find_data_blocks(content):
+    lines = content.splitlines()
+    data_blocks = []
     start_index = None
-    end_index = None
     for index, line in enumerate(lines):
         if line.startswith('C:\\Users\\lenovoPC\\Desktop\\files GNSS\\obs\\'):
+            if start_index is not None:
+                data_blocks.append((start_index, index))
             start_index = index
-            break
     if start_index is not None:
-        for index in range(start_index + 1, len(lines)):
-            if not lines[index].startswith('C:\\Users\\lenovoPC\\Desktop\\files GNSS\\obs\\'):
-                end_index = index
-                break
-    if start_index is not None and end_index is not None:
-        return start_index, end_index
+        data_blocks.append((start_index, len(lines)))
+    return data_blocks
+
+def extract_data_from_content(content_short):
+    date_start = content_short.find('processing...') + len('processing...')
+    date_end = content_short.find('done.', date_start)
+    date = content_short[date_start:date_end].strip()
+    processed_info = 'Обработка завершена' if 'done.' in content_short else 'Обработка не завершена'
+    return date, processed_info
+
+
+def extract_errors_warning_from_content(content):
+    warning_start = content.find('[WARNING]')
+    if warning_start != -1:
+        warning_end = content.find('\n', warning_start)
+        warning = content[warning_start:warning_end].strip()
+        return warning
     else:
-        print("Не удалось найти блок данных")
-        return None, None
-# функция извлечения имени из пути
-def extract_filename_from_file(file_path):
-    with open(file_path, 'r') as file:
-        content = file.read()
-        lines = content.split('\n')
-        for line in lines:
-            if line.startswith("C:\\Users\\"):
-                file_name = line.split('\\')[-1].split()[0]
-                return file_name
-# функция извлечения даты из процесса обработки
+        return "No warning found in the file"
+
+
+def extract_filenames_from_content(content_short):
+    filenames = []
+    for line in content_short:
+        if line.startswith("C:\\Users\\"):
+            file_name = line.split('\\')[-1].split()[0]
+            filenames.append(file_name)
+    return filenames
+
+
 def extract_data_from_file(file_path):
     with open(file_path, 'r') as file:
-        data = file.read()
-        date_start = data.find('processing...') + len('processing...')
-        date_end = data.find('done.', date_start)
-        date = data[date_start:date_end].strip()
-        processed_info = 'Обработка завершена' if 'done.' in data else 'Обработка не завершена'
-        return date, processed_info
-# функция извлечения ошибок и предупреждений из процесса обработки
-def extract_errors_warning_from_file(file_path):
-    with open(file_path, 'r') as file:
         content = file.read()
-        warning_start = content.find('[WARNING]')
-        if warning_start != -1:
-            warning_end = content.find('\n', warning_start)
-            warning = content[warning_start:warning_end].strip()
-            return warning
-        else:
-            return "No warning found in the file"
-def extract_data(file_path, start_index, end_index, date):
-    with open(file_path, 'r') as file:
-        lines = file.readlines()
-
-    data_found =[]
-    for line_number, line in enumerate(lines[start_index:end_index + 1], start=start_index):
-        file_match = re.search(r'(\w+\.14d)', line)
-        last_word_match = re.search(r'done\.', line)  # Уточним шаблон для "done."
-        print(f"Имя файла: {file_match.group(0)}\nДата: {date}\nПоследнее слово: {last_word_match.group(0)}")
-        print(line)  # Выводим строку, которая соответствует всем шаблонам
-
-    if not data_found:
-        print("Данные не найдены")
+        data_blocks = find_data_blocks(content)
+        wb = openpyxl.load_workbook('output.xlsx') if os.path.exists('output.xlsx') else openpyxl.Workbook()
+        sheet = wb.active
+        row_number = sheet.max_row + 1
+        for start_index, end_index in data_blocks:
+            content_short = content.splitlines()[start_index:end_index]
+            names = extract_filenames_from_content(content_short)
+            for name in names:
+                date, processed_info = extract_data_from_content(content)
+                #print(date, processed_info)
+                error = extract_errors_warning_from_content(content[start_index:end_index])
+                sheet[f'A{row_number}'] = name
+                sheet[f'B{row_number}'] = date
+                sheet[f'C{row_number}'] = processed_info
+                sheet[f'D{row_number}'] = error
+                row_number += 1
+        wb.save('output.xlsx')
 
 
 # Пример использования функции
 file_path = r'D:\Python\Extreacted_to_exel\1.txt'
-start_index, end_index = find_data_block(file_path)
-date= extract_data_from_file(file_path)
-extract_data(file_path, start_index, end_index, date)
+extract_data_from_file(file_path)
