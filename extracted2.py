@@ -45,6 +45,6 @@ def save_extracted_data_to_excel(extracted_data, filename):
         print(f"Произошла ошибка при сохранении данных: {e}")
 
 # Пример использования функции
-file_path =  r'C:\Users\lenovoPC\PycharmProjects\extracted_data_to_exel\5001-5400.txt'
+file_path =  r'D:\Python\Extreacted_to_exel\1.txt'
 extracted_data = extract_data_between_paths(file_path)
 save_extracted_data_to_excel(extracted_data, 'extracted_data.xlsx')

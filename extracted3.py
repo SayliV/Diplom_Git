@@ -2,7 +2,7 @@ import re
 import pandas as pd
 import os
 
-file_path = r'C:\Users\lenovoPC\PycharmProjects\extracted_data_to_exel\5001-5400.txt'
+file_path = r'D:\Python\Extreacted_to_exel\1.txt'
 
 def extract_data_between_paths(content):
 
@@ -59,10 +59,10 @@ def save_extracted_data_to_excel(file_path):
                     warning = find_errors_and_warnings(line)
                     if any([file_name, date, processed_info, warning]):
                         data_to_excel.append({
-                            'File Name': file_name,  or None # Если значение пустое, записываем None
-                            'Date': date, or None
-                            'Status': processed_info, or None
-                            'Warning': warning or None
+                            'File Name': file_name or None, # Если значение пустое, записываем None
+                            'Date': date or None,
+                            'Status': processed_info or None,
+                            'Warning': warning or None,
                         })
     except OSError as e:
         print(f"Ошибка при открытии файла: {e}")
