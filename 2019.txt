@@ -1,0 +1,905 @@
+Trying to find observation files...done (150).
+C:\Users\lenovoPC\Desktop\2019d\alx20650.19d [1/150]:
+- reading...done.
+- processing...
+2019-03-06 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-065.
+2019-03-06 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\alx20700.19d [2/150]:
+- reading...done.
+- processing...
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-070.
+2019-03-11 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\amu21070.19d [3/150]:
+- reading...done.
+- processing...
+2019-04-17 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-107.
+2019-04-17 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\aps10700.19d [4/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\aps10700.19d: None; using 15.0 instead.
+done.
+- processing...
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-070.
+2019-03-11 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\aps11010.19d [5/150]:
+- reading...done.
+- processing...
+2019-04-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-101.
+2019-04-11 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\azmp1600.19d [6/150]:
+- reading...done.
+- processing...
+2019-06-09 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-160.
+2019-06-09 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\base0700.19d [7/150]:
+- reading...done.
+- processing...
+2019-03-11 23:59:00
+done.
+C:\Users\lenovoPC\Desktop\2019d\bele0700.19d [8/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\bele0700.19d: None; using 15.0 instead.
+done.
+- processing...
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-070.
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-070.
+2019-03-11 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\benn0700.19d [9/150]:
+- reading...done.
+- processing...
+2019-03-11 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\benn1070.19d [10/150]:
+- reading...done.
+- processing...
+2019-04-17 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\bjfs1070.19d [11/150]:
+- reading...ERROR at line 1 : null character is found in the line or the line is too long (>1024) at line.
+      start>./PaxHeaders.28736/BJFS1070.19d<end
+[ERROR] can't find out rinex version
+'' (C:\Users\lenovoPC\Desktop\2019d\bjfs1070.19d)
+C:\Users\lenovoPC\Desktop\2019d\blsa0910.19d [12/150]:
+- reading...done.
+- processing...
+2019-04-01 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-091.
+2019-04-01 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\blsa1600.19d [13/150]:
+- reading...done.
+- processing...
+2019-06-09 00:01:00[WARNING] Can't find any navigation file for the 'R' on 2019-160.
+2019-06-09 23:56:15
+done.
+C:\Users\lenovoPC\Desktop\2019d\boav0700.19d [14/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\boav0700.19d: None; using 15.0 instead.
+done.
+- processing...
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-070.
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-070.
+2019-03-11 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\braz0700.19d [15/150]:
+- reading...done.
+- processing...
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-070.
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-070.
+2019-03-11 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\brsg0910.19d [16/150]:
+- reading...done.
+- processing...
+2019-04-01 15:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-091.
+2019-04-01 15:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-091.
+2019-04-01 15:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\brtw1440.19d [17/150]:
+- reading...done.
+- processing...
+2019-05-24 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-144.
+2019-05-24 00:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\bums1070.19d [18/150]:
+- reading...done.
+- processing...
+2019-04-17 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\burn0910.19d [19/150]:
+- reading...ERROR : The file seems to be truncated in the middle.
+        The conversion is interrupted after reading the line 3522 :
+      start>118  <end
+done.
+- processing...
+2019-04-01 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-091.
+2019-04-01 00:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-091.
+2019-04-01 00:34:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\cefe0700.19d [20/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\cefe0700.19d: None; using 15.0 instead.
+done.
+- processing...
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-070.
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-070.
+2019-03-11 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\ceft0700.19d [21/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\ceft0700.19d: None; using 15.0 instead.
+done.
+- processing...
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-070.
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-070.
+2019-03-11 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\ceft1010.19d [22/150]:
+- reading...done.
+- processing...
+2019-04-11 00:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-101.
+2019-04-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-101.
+2019-04-11 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn410700.19d [23/150]:
+- reading...done.
+- processing...
+2019-03-11 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn410910.19d [24/150]:
+- reading...done.
+- processing...
+2019-04-01 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn411010.19d [25/150]:
+- reading...done.
+- processing...
+2019-04-11 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn411070.19d [26/150]:
+- reading...done.
+- processing...
+2019-04-17 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn411600.19d [27/150]:
+- reading...done.
+- processing...
+2019-06-09 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn420700.19d [28/150]:
+- reading...done.
+- processing...
+2019-03-11 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn420910.19d [29/150]:
+- reading...done.
+- processing...
+2019-04-01 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn421010.19d [30/150]:
+- reading...done.
+- processing...
+2019-04-11 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn421020.19d [31/150]:
+- reading...done.
+- processing...
+2019-04-12 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn421070.19d [32/150]:
+- reading...done.
+- processing...
+2019-04-17 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn421090.19d [33/150]:
+- reading...done.
+- processing...
+2019-04-19 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn421430.19d [34/150]:
+- reading...done.
+- processing...
+2019-05-23 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn421440.19d [35/150]:
+- reading...done.
+- processing...
+2019-05-24 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn421600.19d [36/150]:
+- reading...done.
+- processing...
+2019-06-09 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn440700.19d [37/150]:
+- reading...done.
+- processing...
+2019-03-11 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn440910.19d [38/150]:
+- reading...done.
+- processing...
+2019-04-01 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn441010.19d [39/150]:
+- reading...done.
+- processing...
+2019-04-11 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn441020.19d [40/150]:
+- reading...done.
+- processing...
+2019-04-12 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn441070.19d [41/150]:
+- reading...done.
+- processing...
+2019-04-17 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn441090.19d [42/150]:
+- reading...done.
+- processing...
+2019-04-19 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn441430.19d [43/150]:
+- reading...done.
+- processing...
+2019-05-23 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn441440.19d [44/150]:
+- reading...done.
+- processing...
+2019-05-24 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\cn441600.19d [45/150]:
+- reading...done.
+- processing...
+2019-06-09 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\crlr1010.19d [46/150]:
+- reading...done.
+- processing...
+2019-04-11 00:00:45[WARNING] Can't find any navigation file for the 'R' on 2019-101.
+2019-04-11 00:00:45[WARNING] Can't find any navigation file for the 'S' on 2019-101.
+2019-04-11 00:00:45[WARNING] Can't find any navigation file for the 'E' on 2019-101.
+2019-04-11 23:31:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\cuib0700.19d [47/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\cuib0700.19d: None; using 15.0 instead.
+done.
+- processing...
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-070.
+2019-03-11 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\dp1a1010.19d [48/150]:
+- reading...done.
+- processing...
+2019-04-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-101.
+2019-04-11 00:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\dp1a1430.19d [49/150]:
+- reading...done.
+- processing...
+2019-05-23 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-143.
+2019-05-23 00:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\dp2a1430.19d [50/150]:
+- reading...done.
+- processing...
+2019-05-23 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-143.
+2019-05-23 00:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\drba0700.19d [51/150]:
+- reading...done.
+- processing...
+2019-03-11 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\elda0700.19d [52/150]:
+- reading...done.
+- processing...
+2019-03-11 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\fair1070.19d [53/150]:
+- reading...done.
+- processing...
+2019-04-17 09:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-107.
+2019-04-17 09:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-107.
+2019-04-17 09:14:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\fall1070.19d [54/150]:
+- reading...done.
+- processing...
+2019-04-17 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\flcb1090.19d [55/150]:
+- reading...done.
+- processing...
+2019-04-19 21:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-109.
+2019-04-19 21:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\flcb1440.19d [56/150]:
+- reading...done.
+- processing...
+2019-05-24 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-144.
+2019-05-24 00:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\flf11010.19d [57/150]:
+- reading...done.
+- processing...
+2019-04-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-101.
+2019-04-11 00:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-101.
+2019-04-11 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\flf11020.19d [58/150]:
+- reading...done.
+- processing...
+2019-04-12 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-102.
+2019-04-12 00:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-102.
+2019-04-12 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\gacr1490.19d [59/150]:
+- reading...done.
+- processing...
+2019-05-29 19:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-149.
+2019-05-29 19:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\howe1070.19d [60/150]:
+- reading...done.
+- processing...
+2019-04-17 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\iaai1070.19d [61/150]:
+- reading...done.
+- processing...
+2019-04-17 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-107.
+2019-04-17 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\icam1440.19d [62/150]:
+- reading...done.
+- processing...
+2019-05-29 14:04:00
+done.
+C:\Users\lenovoPC\Desktop\2019d\iddr1470.19d [63/150]:
+- reading...done.
+- processing...
+2019-05-27 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-147.
+2019-05-27 23:15:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\iddr1480.19d [64/150]:
+- reading...done.
+- processing...
+2019-05-28 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-148.
+2019-05-28 23:15:00
+done.
+C:\Users\lenovoPC\Desktop\2019d\iddr1600.19d [65/150]:
+- reading...done.
+- processing...
+2019-06-09 03:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-160.
+2019-06-09 03:30:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\impz0700.19d [66/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\impz0700.19d: None; using 15.0 instead.
+done.
+- processing...
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-070.
+2019-03-11 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\ka201090.19d [67/150]:
+- reading...done.
+- processing...
+2019-04-19 23:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-109.
+2019-04-19 23:58:00
+done.
+C:\Users\lenovoPC\Desktop\2019d\kytd1020.19d [68/150]:
+- reading...done.
+- processing...
+2019-04-12 18:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-102.
+2019-04-12 18:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-102.
+2019-04-12 18:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\kytf1090.19d [69/150]:
+- reading...done.
+- processing...
+2019-04-19 07:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-109.
+2019-04-19 07:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-109.
+2019-04-19 07:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\laud1440.19d [70/150]:
+- reading...done.
+- processing...
+2019-05-24 16:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-144.
+2019-05-24 16:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\lcsm1020.19d [71/150]:
+- reading...done.
+- processing...
+2019-04-12 05:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-102.
+2019-04-12 05:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\lnc10700.19d [72/150]:
+- reading...done.
+- processing...
+2019-03-11 02:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\lnc20700.19d [73/150]:
+- reading...done.
+- processing...
+2019-03-11 02:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\mobw1010.19d [74/150]:
+- reading...done.
+- processing...
+2019-04-11 11:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-101.
+2019-04-11 11:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\moca1020.19d [75/150]:
+- reading...done.
+- processing...
+2019-04-12 14:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-102.
+2019-04-12 14:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\mocd1020.19d [76/150]:
+- reading...done.
+- processing...
+2019-04-12 04:10:00[WARNING] Can't find any navigation file for the 'R' on 2019-102.
+2019-04-12 04:24:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\mocl1090.19d [77/150]:
+- reading...done.
+- processing...
+2019-04-19 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-109.
+2019-04-19 03:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\mocr1010.19d [78/150]:
+- reading...done.
+- processing...
+2019-04-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-101.
+2019-04-11 00:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\mocr1090.19d [79/150]:
+- reading...done.
+- processing...
+2019-04-19 09:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-109.
+2019-04-19 09:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\mocs1010.19d [80/150]:
+- reading...done.
+- processing...
+2019-04-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-101.
+2019-04-11 02:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\modx1020.19d [81/150]:
+- reading...done.
+- processing...
+2019-04-12 20:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-102.
+2019-04-12 21:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\moed1090.19d [82/150]:
+- reading...done.
+- processing...
+2019-04-19 14:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-109.
+2019-04-19 14:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\mogf1020.19d [83/150]:
+- reading...done.
+- processing...
+2019-04-12 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-102.
+2019-04-12 01:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\moht1090.19d [84/150]:
+- reading...done.
+- processing...
+2019-04-19 19:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-109.
+2019-04-19 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\mojk1010.19d [85/150]:
+- reading...done.
+- processing...
+2019-04-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-101.
+2019-04-11 12:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\mojk1070.19d [86/150]:
+- reading...done.
+- processing...
+2019-04-17 17:09:30[WARNING] Can't find any navigation file for the 'R' on 2019-107.
+2019-04-17 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\moml1010.19d [87/150]:
+- reading...done.
+- processing...
+2019-04-11 20:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-101.
+2019-04-11 20:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\moml1090.19d [88/150]:
+- reading...done.
+- processing...
+2019-04-19 17:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-109.
+2019-04-19 17:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\momo1020.19d [89/150]:
+- reading...done.
+- processing...
+2019-04-12 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-102.
+2019-04-12 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\monc1090.19d [90/150]:
+- reading...done.
+- processing...
+2019-04-19 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-109.
+2019-04-19 00:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\monf1020.19d [91/150]:
+- reading...done.
+- processing...
+2019-04-12 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-102.
+2019-04-12 00:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\morm1010.19d [92/150]:
+- reading...done.
+- processing...
+2019-04-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-101.
+2019-04-11 00:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\morp0700.19d [93/150]:
+- reading...done.
+- processing...
+2019-03-11 23:59:33
+done.
+C:\Users\lenovoPC\Desktop\2019d\mose1020.19d [94/150]:
+- reading...done.
+- processing...
+2019-04-12 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-102.
+2019-04-12 02:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\mosi1010.19d [95/150]:
+- reading...done.
+- processing...
+2019-04-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-101.
+2019-04-11 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\mosi1070.19d [96/150]:
+- reading...done.
+- processing...
+2019-04-17 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-107.
+2019-04-17 08:07:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\mosl1020.19d [97/150]:
+- reading...done.
+- processing...
+2019-04-12 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-102.
+2019-04-12 01:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\move1010.19d [98/150]:
+- reading...done.
+- processing...
+2019-04-11 23:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-101.
+2019-04-11 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\mowb1020.19d [99/150]:
+- reading...done.
+- processing...
+2019-04-12 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-102.
+2019-04-12 00:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\mrtg1070.19d [100/150]:
+- reading...done.
+- processing...
+2019-04-17 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-107.
+2019-04-17 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\msgn1490.19d [101/150]:
+- reading...done.
+- processing...
+2019-05-29 17:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-149.
+2019-05-29 17:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\naus0700.19d [102/150]:
+- reading...done.
+- processing...
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-070.
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-070.
+2019-03-11 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\ncfa1430.19d [103/150]:
+- reading...done.
+- processing...
+2019-05-23 11:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-143.
+2019-05-23 11:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-143.
+2019-05-23 14:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\ncre1470.19d [104/150]:
+- reading...done.
+- processing...
+2019-05-27 22:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-147.
+2019-05-27 22:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-147.
+2019-05-27 22:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\ncwl1470.19d [105/150]:
+- reading...done.
+- processing...
+2019-05-27 16:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-147.
+2019-05-27 16:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-147.
+2019-05-27 16:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\neal1090.19d [106/150]:
+- reading...done.
+- processing...
+2019-04-19 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-109.
+2019-04-19 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\newl0700.19d [107/150]:
+- reading...done.
+- processing...
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-070.
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-070.
+2019-03-11 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\newl0910.19d [108/150]:
+- reading...done.
+- processing...
+2019-04-01 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-091.
+2019-04-01 00:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-091.
+2019-04-01 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\njgc1020.19d [109/150]:
+- reading...done.
+- processing...
+2019-04-12 22:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-102.
+2019-04-12 22:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\ohfh1020.19d [110/150]:
+- reading...done.
+- processing...
+2019-04-12 02:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-102.
+2019-04-12 08:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\ohfh1090.19d [111/150]:
+- reading...done.
+- processing...
+2019-04-19 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-109.
+2019-04-19 00:29:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\onrj0700.19d [112/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\onrj0700.19d: None; using 15.0 instead.
+done.
+- processing...
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-070.
+2019-03-11 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\p1581020.19d [113/150]:
+- reading...done.
+- processing...
+2019-04-12 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\p4330910.19d [114/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\p4330910.19d: None; using 15.0 instead.
+done.
+- processing...
+2019-04-01 00:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-091.
+2019-04-01 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-091.
+2019-04-01 00:00:00[WARNING] Can't find any navigation file for the 'S' on 2019-091.
+2019-04-01 00:30:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\p5291600.19d [115/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\p5291600.19d: None; using 15.0 instead.
+done.
+- processing...
+2019-06-09 00:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-160.
+2019-06-09 04:15:30[WARNING] Can't find any navigation file for the 'R' on 2019-160.
+2019-06-09 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\p6581010.19d [116/150]:
+- reading...done.
+- processing...
+2019-04-11 02:10:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\p6581600.19d [117/150]:
+- reading...done.
+- processing...
+2019-06-09 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\p6631070.19d [118/150]:
+- reading...done.
+- processing...
+2019-04-17 22:36:00
+done.
+C:\Users\lenovoPC\Desktop\2019d\pece0910.19d [119/150]:
+- reading...done.
+- processing...
+2019-04-01 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\plba0700.19d [120/150]:
+- reading...done.
+- processing...
+2019-03-11 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\poal0700.19d [121/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\poal0700.19d: None; using 15.0 instead.
+done.
+- processing...
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-070.
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-070.
+2019-03-11 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\porg1070.19d [122/150]:
+- reading...done.
+- processing...
+2019-04-17 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-107.
+2019-04-17 00:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-107.
+2019-04-17 00:04:00
+done.
+C:\Users\lenovoPC\Desktop\2019d\ppte0700.19d [123/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\ppte0700.19d: None; using 15.0 instead.
+done.
+- processing...
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-070.
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-070.
+2019-03-11 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\r3011440.19d [124/150]:
+- reading...done.
+- processing...
+2019-05-24 21:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-144.
+2019-05-24 21:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\rio20910.19d [125/150]:
+- reading...done.
+- processing...
+2019-04-01 14:03:00[WARNING] Can't find any navigation file for the 'R' on 2019-091.
+2019-04-01 14:03:00[WARNING] Can't find any navigation file for the 'E' on 2019-091.
+2019-04-01 14:44:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\riob0700.19d [126/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\riob0700.19d: None; using 15.0 instead.
+done.
+- processing...
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-070.
+2019-03-11 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\ruhn1070.19d [127/150]:
+- reading...done.
+- processing...
+2019-04-17 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-107.
+2019-04-17 00:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-107.
+2019-04-17 00:54:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\sc010700.19d [128/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\sc010700.19d: None; using 15.0 instead.
+done.
+- processing...
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'E' on 2019-070.
+2019-03-11 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\sc010910.19d [129/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\sc010910.19d: None; using 15.0 instead.
+done.
+- processing...
+2019-04-01 10:11:30[WARNING] Can't find any navigation file for the 'E' on 2019-091.
+2019-04-01 15:46:00
+done.
+C:\Users\lenovoPC\Desktop\2019d\sc011020.19d [130/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\sc011020.19d: None; using 15.0 instead.
+done.
+- processing...
+2019-04-12 09:48:45[WARNING] Can't find any navigation file for the 'E' on 2019-102.
+2019-04-12 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\sc011090.19d [131/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\sc011090.19d: None; using 15.0 instead.
+done.
+- processing...
+2019-04-19 12:04:00[WARNING] Can't find any navigation file for the 'E' on 2019-109.
+2019-04-19 23:57:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\sleu0700.19d [132/150]:
+- reading...done.
+- processing...
+2019-03-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-070.
+2019-03-11 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\sleu1070.19d [133/150]:
+- reading...done.
+- processing...
+2019-04-17 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-107.
+2019-04-17 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\stew0700.19d [134/150]:
+- reading...done.
+- processing...
+2019-03-11 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\stew0910.19d [135/150]:
+- reading...done.
+- processing...
+2019-04-01 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\stew1070.19d [136/150]:
+- reading...done.
+- processing...
+2019-04-17 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\sutb1600.19d [137/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\sutb1600.19d: 15.0; using 90.0 instead.
+done.
+- processing...
+2019-06-09 23:56:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\tmap1010.19d [138/150]:
+- reading...done.
+- processing...
+2019-04-11 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\tmap1020.19d [139/150]:
+- reading...done.
+- processing...
+2019-04-12 23:57:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\tncy1430.19d [140/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\tncy1430.19d: 30.0; using 600.0 instead.
+done.
+- processing...
+2019-05-23 20:00:00
+done.
+C:\Users\lenovoPC\Desktop\2019d\tncy1600.19d [141/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\tncy1600.19d: 30.0; using 60.0 instead.
+done.
+- processing...
+2019-06-09 23:59:00
+done.
+C:\Users\lenovoPC\Desktop\2019d\tnmq1430.19d [142/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\tnmq1430.19d: 30.0; using 60.0 instead.
+done.
+- processing...
+2019-05-23 23:30:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\tnmq1600.19d [143/150]:
+- reading...[WARNING] Wrong interval value in the header of C:\Users\lenovoPC\Desktop\2019d\tnmq1600.19d: 30.0; using 60.0 instead.
+done.
+- processing...
+2019-06-09 23:59:45
+done.
+C:\Users\lenovoPC\Desktop\2019d\txep1010.19d [144/150]:
+- reading...done.
+- processing...
+2019-04-11 23:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-101.
+2019-04-11 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\txes1090.19d [145/150]:
+- reading...done.
+- processing...
+2019-04-19 14:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-109.
+2019-04-19 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\uver1440.19d [146/150]:
+- reading...done.
+- processing...
+2019-05-29 14:07:00
+done.
+C:\Users\lenovoPC\Desktop\2019d\vodg1010.19d [147/150]:
+- reading...done.
+- processing...
+2019-04-11 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-101.
+2019-04-11 00:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\vodg1430.19d [148/150]:
+- reading...done.
+- processing...
+2019-05-23 00:00:00[WARNING] Can't find any navigation file for the 'R' on 2019-143.
+2019-05-23 00:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\wlct1070.19d [149/150]:
+- reading...done.
+- processing...
+2019-04-17 23:59:30
+done.
+C:\Users\lenovoPC\Desktop\2019d\zomb0700.19d [150/150]:
+- reading...done.
+- processing...
+2019-03-11 05:43:30
+done.
+
+There are some errors, check out the log-file: tec\tecs.log.
+Total processing time:  34.374 min.
+
+Press Enter key to close the window.
