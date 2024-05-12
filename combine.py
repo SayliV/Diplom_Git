@@ -1,15 +1,19 @@
-#функция сливаиня двух файлов в один
-def merge_files(file1, file2, output_file):
-    with open(file1, 'r') as f1, open(file2, 'r') as f2, open(output_file, 'w') as output:
-        data1 = f1.read()
-        data2 = f2.read()
-        output.write(data1)
-        output.write('\n\n')  # Добавляем пустую строку между содержимым файлов
-        output.write(data2)
-    print(f"Файлы {file1} и {file2} успешно объединены в файл {output_file}")
+def merge_files():
+    num_files = int(input("Введите количество файлов для объединения: "))
+    file_contents = []
+    for i in range(num_files):
+        file_path = input(f"Введите путь к файлу {i+1}: ")
+        try:
+            with open(file_path, 'r') as file:
+                file_contents.append(file.read())
+        except FileNotFoundError:
+            print(f"Файл {file_path} не найден.")
+            return
+    output_file = input("Введите имя для нового объединенного файла: ")
+    with open(output_file, 'w') as output:
+        for content in file_contents:
+            output.write(content)
+            output.write('\n\n')  # Добавляем пустую строку между содержимым файлов
+    print(f"{num_files} файлов успешно объединены в файл {output_file}")
 
-file1 = r'D:\Python\Extreacted_to_exel\1.txt'
-file2 = r'D:\Python\Extreacted_to_exel\0.txt'
-output_file = "merged_file.txt"
-
-merge_files(file1, file2, output_file)
+merge_files()
