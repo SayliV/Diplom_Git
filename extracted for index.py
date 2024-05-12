@@ -1,6 +1,7 @@
 import openpyxl
-import os
-#функция нахождения ссылок и их индексов
+import re
+
+#функция нахождения ссылок и их индексов в данных
 def find_data_blocks(content):
     lines = content.splitlines()
     data_blocks = []
@@ -14,24 +15,27 @@ def find_data_blocks(content):
         data_blocks.append((start_index, len(lines)))
     return data_blocks
 
+#функция извлечения процесса обработки данных
 def extract_data_from_content(content_short):
-    date_start = content_short.find('processing...') + len('processing...')
-    date_end = content_short.find('done.', date_start)
-    date = content_short[date_start:date_end].strip()
-    processed_info = 'Обработка завершена' if 'done.' in content_short else 'Обработка не завершена'
+    content_combined = '\n'.join(content_short)
+    date_match = re.search(r'\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}', content_combined)
+    date = date_match.group().strip() if date_match else 'Дата не найдена'
+    done_match = re.findall(r'\bdone\b', content_combined)
+    processed_info = 'OK' if done_match else 'NOT OK'
     return date, processed_info
 
-
-def extract_errors_warning_from_content(content):
-    warning_start = content.find('[WARNING]')
-    if warning_start != -1:
-        warning_end = content.find('\n', warning_start)
-        warning = content[warning_start:warning_end].strip()
+#функция нахождеиня ошибок и предупреждеинй в данных
+def extract_errors_warning_from_content(content_short):
+    content_combined = '\n'.join(content_short)
+    pattern = r'\[WARNING\].*?\n'
+    match = re.search(pattern, content_combined, re.DOTALL)
+    if match:
+        warning = match.group().strip()
         return warning
     else:
-        return "No warning found in the file"
+        return "NO ERROR or WARNING"
 
-
+#функция нахождения имени в данных
 def extract_filenames_from_content(content_short):
     filenames = []
     for line in content_short:
@@ -40,29 +44,23 @@ def extract_filenames_from_content(content_short):
             filenames.append(file_name)
     return filenames
 
-
+#функция записи полученных данных в EXCEl файл
 def extract_data_from_file(file_path):
+    wb = openpyxl.Workbook()
+    ws = wb.active
+    ws.append(['Name', 'Date', 'Processed Info', 'Error or Warning'])
     with open(file_path, 'r') as file:
         content = file.read()
         data_blocks = find_data_blocks(content)
-        wb = openpyxl.load_workbook('output.xlsx') if os.path.exists('output.xlsx') else openpyxl.Workbook()
-        sheet = wb.active
-        row_number = sheet.max_row + 1
         for start_index, end_index in data_blocks:
             content_short = content.splitlines()[start_index:end_index]
             names = extract_filenames_from_content(content_short)
             for name in names:
-                date, processed_info = extract_data_from_content(content)
-                #print(date, processed_info)
-                error = extract_errors_warning_from_content(content[start_index:end_index])
-                sheet[f'A{row_number}'] = name
-                sheet[f'B{row_number}'] = date
-                sheet[f'C{row_number}'] = processed_info
-                sheet[f'D{row_number}'] = error
-                row_number += 1
+                date, processed_info = extract_data_from_content(content_short)
+                error = extract_errors_warning_from_content('\n'.join(content_short))
+                ws.append([name, date, processed_info, error])
         wb.save('output.xlsx')
 
-
-# Пример использования функции
+# Вставте в file_path ссылку на txt файл с обработанными данными
 file_path = r'D:\Python\Extreacted_to_exel\1.txt'
 extract_data_from_file(file_path)
