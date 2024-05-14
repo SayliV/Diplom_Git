@@ -72,7 +72,4 @@ def extract_data_from_file(file_path):
                 error = extract_errors_warning_from_content(content_short)
                 ws.append([name, date, processed_info, error])
         wb.save('output.xlsx')
-    print('Файл сохранён в:', os.getcwd())
-
-file_path = input("Enter file path:")
-extract_data_from_file(file_path)
+    print('Файл output.xlsx сохранён в:', os.getcwd())
