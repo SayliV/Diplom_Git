@@ -2,11 +2,11 @@ import os
 
 from index import *
 
-file_path = input("Enter file path:")
+
 def create_EXCEL_log_tabel ():
+    file_path = input("Enter file path:")
+    extract_data_from_file(file_path)
 
-    print(extract_data_from_file(file_path))
+print(create_EXCEL_log_tabel())
 
-
-
-#C:\Users\lenovoPC\PycharmProjects\extracted_data_to_exel\2019.txt
+#C:\Users\lenovoPC\Diplom_Git/2014.txt
