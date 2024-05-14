@@ -20,7 +20,7 @@ def find_data_blocks(content, **kwargs):
 #функция извлечения процесса обработки данных
 def extract_data_from_content(content_short):
     content_combined = '\n'.join(content_short)
-    date_match = re.search(r'\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}', content_combined)
+    date_match = re.search(r'\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}(\.\d{6})?', content_combined)
     date = date_match.group().strip() if date_match else 'Дата не найдена'
     done_match = re.findall(r'\bdone\b', content_combined)
     processed_info = 'OK' if done_match else 'NOT OK'
